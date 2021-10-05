@@ -37,7 +37,7 @@ export function fetchMovies(title) {
     dispatch(fetchMoviesPending())
     return axios
       .get(
-        `http://www.omdbapi.com/?i=tt0848228&apikey=cadc1a65&s=${
+        `https://www.omdbapi.com/?i=tt0848228&apikey=cadc1a65&s=${
           title || 'Avengers'
         }&page=${movies.page}`
       )
