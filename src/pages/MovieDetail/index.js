@@ -11,7 +11,7 @@ export default function MovieDetail() {
   const [movie, setMovie] = React.useState({})
 
   React.useEffect(() => {
-    axios.get(`http://www.omdbapi.com/?i=${id}&apikey=cadc1a65`).then(res => {
+    axios.get(`https://www.omdbapi.com/?i=${id}&apikey=cadc1a65`).then(res => {
       setMovie(res.data)
     })
   }, [])
