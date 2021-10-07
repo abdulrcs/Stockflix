@@ -2,7 +2,7 @@
 
 ![Stockflix](https://i.imgur.com/RsSZOrz.gif)
 
-A Movie App made with https://omdbapi.com/
+A Movie App made with the OMDb API, React, Redux Thunk, and Chakra UI. 
 
 ## Available Scripts
 
