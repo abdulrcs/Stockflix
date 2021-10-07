@@ -19,7 +19,7 @@ function SearchMovie() {
 
   React.useEffect(() => {
     axios
-      .get(`http://www.omdbapi.com/?i=tt3896198&apikey=cadc1a65&s=${value}`)
+      .get(`https://www.omdbapi.com/?i=tt3896198&apikey=cadc1a65&s=${value}`)
       .then(res => {
         setMovies(res.data.Search)
       })
