@@ -2,7 +2,7 @@
 
 ![Stockflix](https://i.imgur.com/RsSZOrz.gif)
 
-A Movie App made with https://omdbapi.com/ for Stockbit Front-end Assessment test.
+A Movie App made with https://omdbapi.com/
 
 ## Available Scripts
 
